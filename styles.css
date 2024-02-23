@@ -1,3 +1,40 @@
+@font-face {
+  font-family: HankenGrotesk;
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+:root {
+  --ff-sans: HankenGrotesk, sans-serif;
+
+  --fs-html: 18px;
+  --fs-normal: 1rem;
+  --fs-lg: 1.5rem;
+  --fs-xlg: 1.875rem; /*REM REPRESENTA A UNIDADE RELATIVA EM RELACAO AO DOCUMENTO ROOT E 16PX=1REM*/
+  --fs-xxlg: 4rem;
+
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-extraBold: 800;
+  --fw-black: 900;
+  /*COLORS*/
+  /*PRIMARY*/
+  --clr-lightRed: hsl(0, 100%, 67%, 0.1);
+  --clr-orangeYellow: hsl(39, 100%, 56%, 0.1);
+  --clr-greenTeal: hsl(166, 100%, 37%, 0.1);
+  --clr-cobaltBlue: hsl(234, 85%, 45%, 0.1);
+  /*FOR GRADIENTS*/
+  --clr-lightSlateBlue: hsl(252, 100%, 67%);
+  --clr-lightRoyalBlue: hsl(241, 81%, 54%);
+
+  --clr-violetBlue: hsla(256, 72%, 46%, 1);
+  --clr-persianBlue: hsla(241, 72%, 46%, 0);
+  /*NEUTRAL*/
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-paleBlue: hsl(221, 100%, 96%);
+  --clr-lightLavender: hsl(241, 100%, 89%);
+  --clr-darkGrayBlue: hsl(224, 30%, 27%);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,4 +46,5 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vh;
 }
