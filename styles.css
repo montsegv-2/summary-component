@@ -9,14 +9,14 @@
   --fs-html: 18px;
   --fs-normal: 1rem;
   --fs-lg: 1.5rem;
-  --fs-xlg: 1.875rem; /*REM REPRESENTA A UNIDADE RELATIVA EM RELACAO AO DOCUMENTO ROOT E 16PX=1REM*/
+  --fs-xlg: 1.875rem;
   --fs-xxlg: 4rem;
 
   --fw-medium: 500;
   --fw-bold: 700;
   --fw-extraBold: 800;
   --fw-black: 900;
-  /*COLORS*/
+
   /*PRIMARY*/
   --clr-lightRed: hsl(0, 100%, 67%, 0.1);
   --clr-orangeYellow: hsl(39, 100%, 56%, 0.1);
